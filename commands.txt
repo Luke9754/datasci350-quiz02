@@ -1,0 +1,40 @@
+# Setup
+gh repo fork danilofreire/datasci350-quiz02 --clone
+cd datasci350-quiz02
+git remote -v
+
+# Task 1
+quarto create project website .
+
+# Task 2
+code .gitignore
+echo "/_site/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+cat .gitignore
+git add .gitignore
+git commit -m "Add gitignore"
+
+# Command log
+code commands.txt
+
+# Tasks 3-5
+rm about.qmd
+code _quarto.yml
+
+# Task 6
+code index.qmd
+
+# Task 7
+code budget-revenue.qmd
+
+# Task 8
+code runtime-rating.qmd
+
+# Task 9
+code bond.qmd
+
+# Task 10
+quarto render
+ls _freeze
+git add .
+git commit -m "Add site pages and freeze"

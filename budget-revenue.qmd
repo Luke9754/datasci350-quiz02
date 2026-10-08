@@ -1,0 +1,24 @@
+---
+title: "Budget and Revenue"
+---
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+films = pd.read_csv("films.csv")
+```
+
+Do bigger budgets bring bigger box-office returns? @fig-budget-revenue plots each film's production budget against its worldwide revenue, both in millions of US dollars.
+
+```{python}
+#| echo: true
+#| label: fig-budget-revenue
+#| fig-cap: "Production budget against worldwide revenue (millions of US dollars)"
+
+fig, ax = plt.subplots()
+ax.scatter(films["budget_musd"], films["revenue_musd"])
+ax.set_xlabel("Budget (millions of US dollars)")
+ax.set_ylabel("Revenue (millions of US dollars)")
+plt.show()
+```

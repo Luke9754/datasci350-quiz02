@@ -1,0 +1,11 @@
+---
+title: "Box Office Numbers"
+---
+
+This site explores `films.csv`, a dataset of 104 well-known films released between 1980 and 2025. For each film it records the franchise, the approximate production budget and worldwide revenue in millions of US dollars, the runtime in minutes, and the IMDb rating. The figures are rounded and not adjusted for inflation.
+
+The three analysis pages:
+
+- [Budget and Revenue](budget-revenue.qmd)
+- [Runtime and Ratings](runtime-rating.qmd)
+- [The Bond Films](bond.qmd)
