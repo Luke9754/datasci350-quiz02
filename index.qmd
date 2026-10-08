@@ -9,3 +9,5 @@ The three analysis pages:
 - [Budget and Revenue](budget-revenue.qmd)
 - [Runtime and Ratings](runtime-rating.qmd)
 - [The Bond Films](bond.qmd)
+
+**AI use:** I used Claude (Anthropic) during this quiz for help with the Quarto setup, the YAML and the plotting code. I checked every line and can explain it.

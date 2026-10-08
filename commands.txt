@@ -38,3 +38,6 @@ quarto render
 ls _freeze
 git add .
 git commit -m "Add site pages and freeze"
+
+# Task 11 (route used: quarto publish gh-pages)
+quarto publish gh-pages
