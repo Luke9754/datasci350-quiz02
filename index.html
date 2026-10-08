@@ -154,6 +154,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="./runtime-rating.html">Runtime and Ratings</a></li>
 <li><a href="./bond.html">The Bond Films</a></li>
 </ul>
+<p><strong>AI use:</strong> I used Claude (Anthropic) during this quiz for help with the Quarto setup, the YAML and the plotting code. I checked every line and can explain it.</p>
 
 
 
@@ -231,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Luke9754\.github\.io\/datasci350-quiz02\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

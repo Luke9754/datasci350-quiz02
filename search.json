@@ -25,6 +25,6 @@
     "href": "index.html",
     "title": "Box Office Numbers",
     "section": "",
-    "text": "This site explores films.csv, a dataset of 104 well-known films released between 1980 and 2025. For each film it records the franchise, the approximate production budget and worldwide revenue in millions of US dollars, the runtime in minutes, and the IMDb rating. The figures are rounded and not adjusted for inflation.\nThe three analysis pages:\n\nBudget and Revenue\nRuntime and Ratings\nThe Bond Films"
+    "text": "This site explores films.csv, a dataset of 104 well-known films released between 1980 and 2025. For each film it records the franchise, the approximate production budget and worldwide revenue in millions of US dollars, the runtime in minutes, and the IMDb rating. The figures are rounded and not adjusted for inflation.\nThe three analysis pages:\n\nBudget and Revenue\nRuntime and Ratings\nThe Bond Films\n\nAI use: I used Claude (Anthropic) during this quiz for help with the Quarto setup, the YAML and the plotting code. I checked every line and can explain it."
   }
 ]
