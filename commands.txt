@@ -41,3 +41,20 @@ git commit -m "Add site pages and freeze"
 
 # Task 11 (route used: quarto publish gh-pages)
 quarto publish gh-pages
+
+# Task 12: the AI line was missing on the home page, added it to index.qmd and republished
+code index.qmd
+quarto publish gh-pages
+
+# Task 13
+git add .
+git commit -m "Add command log"
+
+# Task 14
+git push
+
+# Final update of the command log
+git status
+git add commands.txt
+git commit -m "Update command log"
+git push
